@@ -4,7 +4,7 @@ Donate link: https://wp-native-articles.com
 Tags: facebook, instant articles, mobile, speed, optimize, performance
 Requires at least: 3.0.1
 Tested up to: 4.7
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -123,10 +123,13 @@ through the WordPress support forum found on the Plugin download page.
 
 == Changelog ==
 
+= 1.0.4 =
+* Fix error when deleting an article via the API and Facebook isn't connected
+* Fix error in image captions with non alphanumeric entities
+
 = 1.0.3 =
 * WordPress 4.7 compatibility
 * Speed improvements for locating attachment IDs
-* Better error logging for the API
 
 = 1.0.2 =
 * Fix for images using HTML5 markup
