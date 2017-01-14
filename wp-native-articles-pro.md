@@ -1,10 +1,10 @@
-=== WP Native Articles Pro ===
+=== WP Native Articles ===
 Contributors: ozthegreat
 Donate link: https://wp-native-articles.com
 Tags: facebook, instant articles, mobile, speed, optimize, performance
 Requires at least: 4.0
-Tested up to: 4.7
-Stable tag: 1.0.7
+Tested up to: 4.7.1
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -122,6 +122,10 @@ through the WordPress support forum found on the Plugin download page.
 5. Multisite options page.
 
 == Changelog ==
+
+= 1.0.8 =
+* WordPress 4.7.1 compatibility
+* Auto updater bug fix
 
 = 1.0.7 =
 * Auto updater fixes
