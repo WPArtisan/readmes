@@ -1,10 +1,10 @@
-=== WP Native Articles ===
+=== WP Native Articles Pro ===
 Contributors: ozthegreat
 Donate link: https://wp-native-articles.com
 Tags: facebook, instant articles, mobile, speed, optimize, performance
 Requires at least: 4.0
-Tested up to: 4.7.1
-Stable tag: 1.0.8
+Tested up to: 4.7.2
+Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -122,6 +122,9 @@ through the WordPress support forum found on the Plugin download page.
 5. Multisite options page.
 
 == Changelog ==
+
+= 1.0.9 =
+* Fix Infogram embeds
 
 = 1.0.8 =
 * WordPress 4.7.1 compatibility
