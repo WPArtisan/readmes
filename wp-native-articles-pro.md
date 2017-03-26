@@ -111,7 +111,7 @@ through the WordPress support forum found on the Plugin download page.
 == Changelog ==
 
 = 1.1.4 =
-* Fix. Post settings sometimes global defaults when they shouldn't.
+* Fix. Post settings sometimes override global defaults when they shouldn't.
 
 = 1.1.3 =
 * Feature. Show warning if options have been overridden using hooks
