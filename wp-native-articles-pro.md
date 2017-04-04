@@ -1,14 +1,14 @@
-=== WP Native Articles Pro ===
+=== Facebook Instant Articles for WordPress Plugin - WP Native Articles Pro ===
 Contributors: ozthegreat
 Donate link: https://wp-native-articles.com
 Tags: facebook, instant articles, mobile, speed, optimize, performance
 Requires at least: 4.0
 Tested up to: 4.7.3
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easy Facebook Instant Articles for your WordPress site with better content parsing and advanced features.
+Easy Facebook Instant Articles Plugin for your WordPress site with better content parsing and advanced features.
 
 == Description ==
 
@@ -110,8 +110,14 @@ through the WordPress support forum found on the Plugin download page.
 
 == Changelog ==
 
+= 1.1.5 =
+* Feature. Notify if a template is being overridden
+* Fix. Ads script was sometimes being escaped
+* Fix. Now works with the new Facebook API
+* Fix. Saving API login settings sometimes wouldn't work
+
 = 1.1.4 =
-* Fix. Post settings sometimes override global defaults when they shouldn't.
+* Fix. Post settings sometimes override global defaults when they shouldn't
 
 = 1.1.3 =
 * Feature. Show warning if options have been overridden using hooks
