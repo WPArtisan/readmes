@@ -1,10 +1,10 @@
 === Facebook Instant Articles for WordPress Plugin - WP Native Articles Pro ===
 Contributors: ozthegreat
 Donate link: https://wp-native-articles.com
-Tags: facebook, instant articles, mobile, speed, optimize, performance
+Tags: facebook, instant articles, facebook instant articles, mobile, speed, optimize, performance
 Requires at least: 4.0
 Tested up to: 4.7.3
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -109,6 +109,14 @@ through the WordPress support forum found on the Plugin download page.
 6. Multisite options page.
 
 == Changelog ==
+
+= 1.1.6 =
+* Feature. Can now use dynamic date variables in Copyright & Credit fields
+* Feature. Shows a warning if the API doesn't have the correct permissions
+* Feature. Shows any API errors
+* Fix. API flow now has better checking
+* Fix. API now works with 2.8
+* Fix. Date validation for PHP <= 5.3 now works
 
 = 1.1.5 =
 * Feature. Notify if a template is being overridden
