@@ -17,6 +17,7 @@ Easy Facebook Instant Articles Plugin for your WordPress site with better conten
 == Description ==
 
 **Major Updates**
+
 - 1.2.5 - Specify different content for your Instant Article
 - 1.2.2 - WP Bakery Visual Composer Support
 
@@ -60,9 +61,9 @@ Features planned for the near future.
 
 == Installation ==
 
-1. Upload `wp-native-articles-pro` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to `Native Articles` in the admin sidebar to manage settings
+1. Upload *wp-native-articles-pro* to the */wp-content/plugins/* directory
+2. Activate the plugin through the Plugins menu in WordPress
+3. Go to *Native Articles* in the admin sidebar to manage settings
 4. When you're ready submit your feed to Facebook. [Full instructions](https://developers.facebook.com/docs/instant-articles/publishing/setup-rss-feed)
 
 == Upgrade Notice ==
