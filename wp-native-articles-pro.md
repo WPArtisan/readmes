@@ -1,4 +1,5 @@
 === Facebook Instant Articles for WordPress Plugin - WP Native Articles Pro ===
+
 Contributors: ozthegreat
 Donate link: https://wp-native-articles.com
 Tags: facebook, instant articles, facebook instant articles, mobile, speed, optimize, performance
