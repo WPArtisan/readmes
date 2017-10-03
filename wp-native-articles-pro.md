@@ -1,11 +1,10 @@
 === Facebook Instant Articles for WordPress Plugin - WP Native Articles Pro ===
-
 Contributors: ozthegreat
 Donate link: https://wp-native-articles.com
 Tags: facebook, instant articles, facebook instant articles, mobile, speed, optimize, performance
 Requires at least: 4.0
-Tested up to: 4.8.1
-Stable tag: 1.2.5
+Tested up to: 4.8.2
+Stable tag: 1.3.0
 Requires PHP: 5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -17,7 +16,7 @@ Easy Facebook Instant Articles Plugin for your WordPress site with better conten
 == Description ==
 
 **Major Updates**
-
+- 1.3.0 - Placement Manager, Crawler Ingestion & WP Recipe Maker Support.
 - 1.2.5 - Specify different content for your Instant Article
 - 1.2.2 - WP Bakery Visual Composer Support
 
@@ -40,6 +39,8 @@ A large part of the complexity of integrating Facebook Instant Articles is the r
 > [WP Native Articles Pro](https://wp-native-articles.com/?utm_source=fplugin&utm_medium=readme-a) comes with full [Facebook Instant Articles API](https://wp-native-articles.com/?utm_source=fplugin&utm_medium=readme-b#features) integration and has more advanced features such as:
 >
 > * **Full API integration**
+> * **[Placement Manager](https://wp-native-articles.com/facebook-instant-articles/placement-manager/?utm_source=fplugin&utm_medium=readme-placements)** Add custom code anywhere within your Instant Articles.
+> * **[Crawler Ingestion](https://wp-native-articles.com/facebook-instant-articles/crawler-ingestion/?utm_source=fplugin&utm_medium=readme-crawler)** Auto set all your articles to become Instant Articles the moment they're shared on Facebook.
 > * **Manage Articles** Publish, unpublish and manage Instant Articles directly from the WordPress post page.
 > * **Live Sync** Instant Articles synced instantly from WordPress, no waiting for FaceBook to scrape the RSS feed.
 > * **Individual Sync** Only make posts of your choosing Instant Articles
@@ -53,7 +54,7 @@ A large part of the complexity of integrating Facebook Instant Articles is the r
 
 Features planned for the near future.
 
-* Placement manager (ads, related articles, anything)
+* Placement manager (ads, related articles, anything) - Done
 * Sync all your old articles
 * Embed WordPress Comments
 * Advanced stats & weekly roundup email
@@ -61,9 +62,9 @@ Features planned for the near future.
 
 == Installation ==
 
-1. Upload *wp-native-articles-pro* to the */wp-content/plugins/* directory
-2. Activate the plugin through the Plugins menu in WordPress
-3. Go to *Native Articles* in the admin sidebar to manage settings
+1. Upload `wp-native-articles-pro` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Go to `Native Articles` in the admin sidebar to manage settings
 4. When you're ready submit your feed to Facebook. [Full instructions](https://developers.facebook.com/docs/instant-articles/publishing/setup-rss-feed)
 
 == Upgrade Notice ==
@@ -136,6 +137,25 @@ through the WordPress support forum found on the Plugin download page.
 7. Multisite options page.
 
 == Changelog ==
+
+= 1.3.0 =
+* Feature. Placement Manager
+* Feature. Add Crawler Ingestion support
+* Feature. Designed dashboard chart. Which stacked bar graph + total views count
+* Feature. Add rtl support
+* Feature. Toggle ads field + simpler audience network field
+* Feature. Toggle basic auth field
+* Feature. Add video header support
+* Feature. wpna_allowed_post_types() now controls what post types get converted.
+* Feature. Support for EasyAzon plugin
+* Feature. Support for AdAce plugin
+* Feature. Support for WP Recipe Maker
+* Fix. Error on API pages with printf not having enough params
+* Fix. Can now use UTF-8 urls in related articles
+* Fix. Add fallback for mb_convert_encoding()
+* Fix. Get correct options when using switch_to_blog()
+* Fix. Related articles automatically mark as sponsored if they are
+* Fix. Stop & (ampersand) getting encoded in analytics
 
 = 1.2.5 =
 * Feature. Post content override. You can now specify different content for IA
